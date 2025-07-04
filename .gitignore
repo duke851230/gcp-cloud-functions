@@ -1,0 +1,40 @@
+# Terraform 檔案
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+
+# 暫存檔案
+*.tmp
+*.temp
+function.zip
+
+# 日誌檔案
+*.log
+
+# Python 快取
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 檔案
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db
+
+# 本地配置檔案
+.env
+.env.local 
